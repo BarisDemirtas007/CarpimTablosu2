@@ -1,3 +1,10 @@
+echo "# CarpimTablosu2" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/BarisDemirtas007/CarpimTablosu2.git
+ git push -u origin main
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
